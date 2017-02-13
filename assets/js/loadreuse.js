@@ -1,7 +1,5 @@
 $( document ).ready(function() {
-    $("#headeritems").load("reuse/headeritems.html");
     $("#footer").load("reuse/footer.html");
-    loadScripts(["assets/js/main.js"],noop());
 });
 
 function loadScripts(array,callback){
